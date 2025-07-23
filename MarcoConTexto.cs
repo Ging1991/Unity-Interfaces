@@ -8,6 +8,7 @@ namespace Ging1991.UI {
 
 		public GameObject textoOBJ;
 		public string temaTexto;
+		public string codigoIdioma;
 
         public virtual void SetColorTexto(Color color) {
 			textoOBJ.GetComponent<Text>().color = color;
