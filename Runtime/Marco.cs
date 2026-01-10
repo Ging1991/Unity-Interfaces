@@ -1,17 +1,22 @@
-using Ging1991.UI.Temas;
+using Ging1991.Interfaces.Temas;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Ging1991.UI {
+namespace Ging1991.Interfaces {
 
 	public class Marco : Relleno {
 
 		public string temaBorde;
 		public GameObject rellenoOBJ;
 
-        void Start() {
-			FindObjectOfType<TemaControl>().AplicarTemaPrincipal(this);
-        }
+		void Start() {
+			if (!esPersonalizado) {
+				TemaControl temaControl = FindAnyObjectByType<TemaControl>();
+				if (temaControl != null) {
+					temaControl.AplicarTemaPrincipal(this);
+				}
+			}
+		}
 
 		public void SetColorBorde(Color color) {
 			GetComponent<Image>().color = color;
@@ -26,7 +31,7 @@ namespace Ging1991.UI {
 		public override void AplicarTema(Tema tema) {
 			if (!esPersonalizado) {
 				base.AplicarTema(tema);
-				SetColorBorde(tema.TraerColor(temaBorde));				
+				SetColorBorde(tema.TraerColor(temaBorde));
 			}
 		}
 

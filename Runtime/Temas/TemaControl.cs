@@ -1,12 +1,11 @@
 using UnityEngine;
 
-namespace Ging1991.UI.Temas {
+namespace Ging1991.Interfaces.Temas {
 
 	public class TemaControl : MonoBehaviour {
 
 		public Tema temaPrincipal;
 
-		// version 1
 		public void AplicarTemaPrincipal(ITematizable tematizable) {
 			if (temaPrincipal != null) {
 				tematizable.AplicarTema(temaPrincipal);

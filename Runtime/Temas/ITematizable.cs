@@ -1,4 +1,4 @@
-namespace Ging1991.UI.Temas {
+namespace Ging1991.Interfaces.Temas {
 
 	public interface ITematizable {
 

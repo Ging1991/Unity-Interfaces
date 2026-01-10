@@ -1,0 +1,13 @@
+{
+	"name": "com.ging1991.interfaces",
+	"version": "1.0.0",
+	"displayName": "Ging1991 - Interfaces",
+	"description": "Librería para UI estandar.",
+	"unity": "2022.3",
+	"keywords": ["soporte",	"unity", "tcg",	"util"],
+	"author": {
+		"name": "Carlos Caballero",
+		"email": "tu-email@ejemplo.com",
+		"url": "https://github.com/Ging1991/Unity-Core.git"
+	}
+}

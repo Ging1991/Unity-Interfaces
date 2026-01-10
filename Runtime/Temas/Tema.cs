@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Ging1991.UI.Temas {
+namespace Ging1991.Interfaces.Temas {
 
 	public class Tema {
 

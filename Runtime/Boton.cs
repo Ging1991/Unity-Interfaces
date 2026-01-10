@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Ging1991.UI {
+namespace Ging1991.Interfaces {
 
 	public class Boton : MarcoConTexto {
 
