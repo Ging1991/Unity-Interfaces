@@ -13,6 +13,9 @@ namespace Ging1991.Interfaces.Casillas {
 		private List<ICasillaObservador> observadores;
 
 
+		void Start() { }
+
+
 		public void AgregarObservador(ICasillaObservador observador) {
 			if (observadores == null) {
 				observadores = new List<ICasillaObservador>();
