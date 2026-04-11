@@ -105,8 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0b2f36aa315fd43a3f77652506b25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagenOBJ: {fileID: 599989810467267745}
-  codigo: BOTON_BORDE
+  objetivo: {fileID: 599989810467267745}
+  codigo: BORDE
 --- !u!1 &6238160103493400463
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0b2f36aa315fd43a3f77652506b25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagenOBJ: {fileID: 6041441255630810246}
-  codigo: BOTON_RELLENO
+  objetivo: {fileID: 6041441255630810246}
+  codigo: RELLENO
 --- !u!1001 &7140495742890312149
 PrefabInstance:
   m_ObjectHideFlags: 0

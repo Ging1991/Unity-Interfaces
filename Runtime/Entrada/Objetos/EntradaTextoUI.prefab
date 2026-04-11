@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0b2f36aa315fd43a3f77652506b25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagenOBJ: {fileID: 1271719354713366816}
+  objetivo: {fileID: 1271719354713366816}
   codigo: RELLENO
 --- !u!1 &6042740381779072445
 GameObject:
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0b2f36aa315fd43a3f77652506b25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagenOBJ: {fileID: 6042740382725508902}
+  objetivo: {fileID: 6042740382725508902}
   codigo: BORDE
 --- !u!1 &6042740383191885581
 GameObject:

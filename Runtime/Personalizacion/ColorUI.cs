@@ -5,14 +5,14 @@ namespace Ging1991.Interfaces.Personalizacion {
 
 	public class ColorUI : MonoBehaviour {
 
-		public Image imagenOBJ;
+		public Graphic objetivo;
 		public string codigo;
 
 		public void SetColor(Color color) {
-			if (imagenOBJ != null)
-				imagenOBJ.color = color;
+			if (objetivo != null)
+				objetivo.color = color;
 			else
-				Debug.LogWarning("No se ha asignado un objeto de imagen.");
+				Debug.LogWarning("No se ha asignado un objetivo de tipo Graphic.");
 		}
 
 	}

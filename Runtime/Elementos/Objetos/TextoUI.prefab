@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9174122647259548666}
   - component: {fileID: 8139353732747273361}
   - component: {fileID: 8232401253668393652}
+  - component: {fileID: 8345346632764480081}
   m_Layer: 5
   m_Name: TextoUI
   m_TagString: Untagged
@@ -79,7 +80,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TEXTO
+  m_Text: Texto
 --- !u!114 &8232401253668393652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,4 +94,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoOBJ: {fileID: 8139353732747273361}
-  codigo: CODIGO
+  codigo: TEXTO
+--- !u!114 &8345346632764480081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2941148237783604067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0b2f36aa315fd43a3f77652506b25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetivo: {fileID: 8139353732747273361}
+  codigo: TEXTO
